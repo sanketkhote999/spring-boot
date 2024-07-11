@@ -24,8 +24,8 @@ public class StorageService {
     private FileDataRepository fileDataRepository;
 
     // private final String FOLDER_PATH="c:/Users/sanke/OneDrive/Desktop/MyFIles/";
-    String FOLDER_PATH = System.getProperty("user.dir") + "/";
-    // private final String FOLDER_PATH=currentDir+"/file/";
+    // String FOLDER_PATH = System.getProperty("user.dir") + "/";
+    private final String FOLDER_PATH="/home/linuxuser/image/app/";
 
 
     public String uploadImage(MultipartFile file) throws IOException {
