@@ -24,7 +24,7 @@ public class StorageService {
     private FileDataRepository fileDataRepository;
 
     // private final String FOLDER_PATH="c:/Users/sanke/OneDrive/Desktop/MyFIles/";
-    String FOLDER_PATH = System.getProperty("user.dir") + "/";
+    String FOLDER_PATH = System.getProperty("user.dir") + "/images/";
     // private final String FOLDER_PATH="/home/linuxuser/image/app/";
 
 
